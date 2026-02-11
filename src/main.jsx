@@ -9,7 +9,7 @@ initStorage();
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='https://tuli-fisher.github.io/'>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
