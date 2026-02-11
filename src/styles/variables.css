@@ -1,0 +1,50 @@
+:root {
+  /* Colors - Professional Light Theme */
+  --color-bg-app: hsl(210, 20%, 98%);
+  /* Off-white background */
+  --color-bg-card: #ffffff;
+  --color-bg-card-hover: hsl(210, 20%, 96%);
+
+  /* Brand Color - Trustworthy Blue */
+  --color-primary: hsl(220, 90%, 56%);
+  /* Royal Blue */
+  --color-primary-hover: hsl(220, 90%, 45%);
+
+  --color-accent: hsl(150, 80%, 35%);
+  /* Professional Green */
+  --color-accent-gold: hsl(35, 90%, 50%);
+
+  /* Text - High Contrast */
+  --color-text-main: hsl(220, 20%, 15%);
+  /* Dark Gunmetal */
+  --color-text-muted: hsl(220, 10%, 45%);
+  --color-text-dim: hsl(220, 10%, 70%);
+
+  --color-border: hsl(220, 15%, 90%);
+  --color-danger: hsl(0, 70%, 55%);
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+
+  /* Typography */
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.5rem;
+  --font-size-xxl: 2rem;
+
+  /* Elevation (Instead of Glass) */
+  --glass-bg: #ffffff;
+  --glass-border: 1px solid var(--color-border);
+  --glass-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --backdrop-blur: none;
+
+  /* Animation */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+}
